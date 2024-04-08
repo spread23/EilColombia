@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
+import ReactPlayer from 'react-player'
 
 import './navbar.css'
 import logo from '../../assets/logo.png'
@@ -37,6 +38,14 @@ export const Navbar = () => {
                     </div>
                 </div>
                 <img className='header-image' src={ vinedo } alt="vinedo" />
+                <ReactPlayer 
+                    url='https://www.youtube.com/watch?v=ZO3JZP6Dbgk&t=19s'
+                    className='react-player'
+                    muted
+                    playing
+                    loop
+                    width='100%'
+                />
             </header>
         </>
     )  
