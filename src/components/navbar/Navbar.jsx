@@ -5,6 +5,7 @@ import ReactPlayer from 'react-player'
 import './navbar.css'
 import logo from '../../assets/logo.png'
 import vinedo from '../../assets/viñedo.jpg'
+import vinedoGrande from '../../assets/vinedo_grande.jpg'
 
 export const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -37,7 +38,7 @@ export const Navbar = () => {
                         </nav>
                     </div>
                 </div>
-                <img className='header-image' src={ vinedo } alt="vinedo" />
+                <img className='header-image' src={ vinedoGrande } alt="vinedo" />
                 <ReactPlayer 
                     url='https://www.youtube.com/watch?v=ZO3JZP6Dbgk&t=19s'
                     className='react-player'
