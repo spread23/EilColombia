@@ -75,6 +75,19 @@ body, html {
     width: 100%;
 }
 
+.container-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+.slider-wrap {
+    width: 400px;
+}
+
 @media (max-width: 750px) {
     .wines-home {
         display: flex;
