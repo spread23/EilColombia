@@ -15,6 +15,10 @@ body, html {
     align-items: center;
 }
 
+.player-container {
+    background-color: black;
+}
+
 .menu-items {
     display: flex;
     flex-direction: row;

@@ -39,14 +39,16 @@ export const Navbar = () => {
                     </div>
                 </div>
                 <img className='header-image' src={ vinedoGrande } alt="vinedo" />
-                <ReactPlayer 
-                    url='https://www.youtube.com/watch?v=ZO3JZP6Dbgk&t=19s'
-                    className='react-player'
-                    muted
-                    playing
-                    loop
-                    width='100%'
-                />
+                <div className='payer-container'>
+                    <ReactPlayer 
+                        url='https://www.youtube.com/watch?v=ZO3JZP6Dbgk&t=19s'
+                        className='react-player'
+                        muted
+                        playing
+                        loop
+                        width='100%'
+                    />
+                </div>
             </header>
         </>
     )  

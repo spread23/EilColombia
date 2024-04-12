@@ -1,0 +1,83 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-home {
+    background-color: black;
+    height: 500px;
+    margin: 0;
+}
+
+.logo-home {
+    margin: 20px;
+}
+
+.home-logo {
+    width: 300px;
+}
+
+.section-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wines-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    background-color: black;
+}
+
+.description-wine {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: auto;
+}
+
+.wine {
+    width: 400px;
+}
+
+.title-wine {
+    margin-bottom: 15px;
+    padding: 0
+}
+
+.contain-wine {
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+
+.title-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.some-products {
+    margin-bottom: 40px;
+}
+
+.bottle-image {
+    width: 100%;
+}
+
+@media (max-width: 750px) {
+    .wines-home {
+        display: flex;
+        flex-direction: column;
+    }
+}
