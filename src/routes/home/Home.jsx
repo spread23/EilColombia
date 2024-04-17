@@ -1,7 +1,7 @@
 import React from 'react'
 
 import './home.css'
-import logoWhite from '../../assets/logo_white.png'
+import logoWhite from '../../assets/ei_logo_white.png'
 import wines from '../../assets/wines.jpg'
 import bottles from '../../assets/botellas.png'
 

@@ -1,0 +1,36 @@
+.container-about {
+    width: 100%;
+    padding: 20px;
+}
+
+.article-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+
+.description-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+}
+
+.info-about {
+    color: gray;
+}
+
+.makers {
+    width: 400px;
+}
+
+@media (max-width: 768px) {
+    .article-about {
+        display: flex;
+        flex-direction: column;
+    }
+}

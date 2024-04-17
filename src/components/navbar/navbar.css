@@ -24,7 +24,7 @@ body, html {
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
-    text-align: center;
+    
 }
 
 .menu-items li a {
@@ -59,6 +59,7 @@ body, html {
         width: 100%;
         position: absolute;
         left: 0;
+        text-align: left;
     }
 
     .menu-items {

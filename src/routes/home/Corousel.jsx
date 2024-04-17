@@ -8,9 +8,10 @@ import {
 } from 'reactstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import one from '../../assets/uno.jpg'
-import two from '../../assets/dos.jpg'
-import three from '../../assets/tres.jpg'
+import one from '../../assets/uno.png'
+import two from '../../assets/dos.png'
+import three from '../../assets/cuatro.png'
+import four from '../../assets/cinco.png'
 
 const items = [
   {
@@ -27,6 +28,12 @@ const items = [
   },
   {
     src: three,
+    altText: 'wine',
+    caption: 'wine-slider',
+    key: 3,
+  },
+  {
+    src: four,
     altText: 'wine',
     caption: 'wine-slider',
     key: 3,
@@ -62,10 +69,7 @@ function Slider(args) {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} width='100%' />
-        <CarouselCaption
-          captionText={item.caption}
-          captionHeader={item.caption}
-        />
+        
       </CarouselItem>
     );
   });
