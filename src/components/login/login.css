@@ -1,0 +1,89 @@
+.container-login {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-login {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.form-group label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #252D5F;
+}
+
+.form-group input {
+    padding: 20px;
+    border: 1px solid #FF5C78;
+    border-radius: 10px;
+}
+
+.submit-login {
+    border: none;
+    border-radius: 6px;
+    padding: 20px;
+    color: white;
+    background-color: #FF5C78;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-user-loged {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cards-loged {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.image-card {
+    width: 200px;
+}
+
+.delete-card {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #FF5C78;
+    padding: 12px;
+}
+
+.camera {
+    font-size: 30px;
+}
