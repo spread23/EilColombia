@@ -81,8 +81,6 @@ export const Login = () => {
 
         const data = await response.json()
 
-        document.querySelector('form-login').reset()
-
         if (data.status == 'success') {
             console.log('Card creada')
             getCards()
@@ -110,7 +108,6 @@ export const Login = () => {
             body: formData
         })
         const data = await response.json()
-        console.log(data)
 
         if (data.status == 'success') {
             console.log(data)
