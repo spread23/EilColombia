@@ -81,8 +81,7 @@ export const Login = () => {
 
         const data = await response.json()
 
-
-        console.log(form)
+        document.querySelector('form-login').reset()
 
         if (data.status == 'success') {
             console.log('Card creada')
@@ -102,8 +101,6 @@ export const Login = () => {
 
         const formData = new FormData()
         formData.append('file0', file)
-
-        console.log(formData)
 
         const response = await fetch(`https://eil-api.onrender.com/api/card/upload/${id}`, {
             method: 'POST',
