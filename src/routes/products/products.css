@@ -16,12 +16,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(224, 222, 222);
+    background-color: #ffffff;
     padding: 20px;
     margin: 20px;
     border-radius: 20px;
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.3);
 }
 
 .image-card {
     width: 250px;
+    border-radius: 20px;
+    margin: 12px;
 }

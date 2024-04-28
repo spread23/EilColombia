@@ -23,17 +23,17 @@ export const Products = () => {
                 {listCards.length <= 0 ? 
                 <div className='card-section'>
                     <img className='image-card' src={`https://eil-api.onrender.com/api/card/getAvatar/image.png`} alt="image-card" />
-                    <h4 className='title-card'>Title</h4>
-                    <p className='description'>Description</p>
-                    <p className='type'>Type</p>
+                    <h4 className='title-card'>Titulo:</h4>
+                    <p className='description'>Descripcion:</p>
+                    <p className='type'>Tipo:</p>
                 </div>
                 : 
             listCards.map((card) => {
                 return <div className='card-section'>
                     <img className='image-card' src={`https://eil-api.onrender.com/api/card/getAvatar/${card.image}`} alt="image-card" />
-                    <h4 className='title-card'>Title {card.title}</h4>
-                    <p className='description'>Description {card.description}</p>
-                    <p className='type'>Type {card.type}</p>
+                    <h4 className='title-card'>Titulo {card.title}</h4>
+                    <p className='description'>Descripcion {card.description}</p>
+                    <p className='type'>Tipo {card.type}</p>
                  </div>
             })}
             </div>
