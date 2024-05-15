@@ -150,7 +150,7 @@ export const Login = () => {
 
                             <div className='form-group'>
                                 <label htmlFor="description-product">Descripcion del producto</label>
-                                <input onChange={handleOnChangeProduct} type="text" name="description" placeholder='Descripcion...' />
+                                <textarea onChange={handleOnChangeProduct} type="text" name="description" placeholder='Descripcion...' />
                             </div>
 
                             <div className='form-group'>

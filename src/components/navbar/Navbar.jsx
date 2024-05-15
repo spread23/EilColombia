@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import ReactPlayer from 'react-player'
 import { FaWhatsapp } from 'react-icons/fa'
 
 import './navbar.css'
@@ -40,16 +39,6 @@ export const Navbar = () => {
                     </div>
                 </div>
                 <img className='header-image' src={ vinedoGrande } alt="vinedo" />
-                <div className='payer-container'>
-                    <ReactPlayer 
-                        url='https://www.youtube.com/watch?v=ZO3JZP6Dbgk&t=19s'
-                        className='react-player'
-                        muted
-                        playing
-                        loop
-                        width='100%'
-                    />
-                </div>
             </header>
             <div className='whats-container'>
                     <FaWhatsapp className='whats' />

@@ -7,7 +7,7 @@ import { FaYoutube } from 'react-icons/fa'
 
 import './footer.css'
 import logo from '../../assets/logo.png'
-import logoWhite from '../../assets/ei_logo_white.png'
+import logoWhite from '../../assets/logo_white_alta.png'
 
 export const Footer = () => {
     return (

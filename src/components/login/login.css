@@ -32,7 +32,7 @@
     color: #252D5F;
 }
 
-.form-group input {
+.form-group input, textarea {
     padding: 20px;
     border: 1px solid #FF5C78;
     border-radius: 10px;

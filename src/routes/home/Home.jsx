@@ -1,7 +1,8 @@
 import React from 'react'
+import ReactPlayer from 'react-player'
 
 import './home.css'
-import logoWhite from '../../assets/ei_logo_white.png'
+import logoWhite from '../../assets/logo_white_alta.png'
 import wines from '../../assets/wines.jpg'
 import bottles from '../../assets/botellas.png'
 
@@ -14,6 +15,16 @@ export const Home = () => {
                 <div className='logo-home'>
                     <img className='home-logo' src={logoWhite} alt="logo" />
                 </div>
+            </div>
+            <div className='player-container'>
+                    <ReactPlayer 
+                        url='https://www.youtube.com/watch?v=ZO3JZP6Dbgk&t=19s'
+                        className='react-player'
+                        muted
+                        playing
+                        loop
+                        width='100%'
+                    />
             </div>
             <div className='wines-home'>
                 <div className='image-wine'>

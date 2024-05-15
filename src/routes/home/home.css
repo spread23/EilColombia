@@ -86,7 +86,7 @@ body, html {
 }
 
 .slider-wrap {
-    width: 400px;
+    width: 200px;
 }
 
 @media (max-width: 750px) {
