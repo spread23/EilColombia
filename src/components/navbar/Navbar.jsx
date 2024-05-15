@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom'
 import { FaWhatsapp } from 'react-icons/fa'
 
 import './navbar.css'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo_finish.png'
 import vinedo from '../../assets/viñedo.jpg'
 import vinedoGrande from '../../assets/vinedo_grande.jpg'
 
