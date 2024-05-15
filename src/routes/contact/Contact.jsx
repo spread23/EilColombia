@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { FaWhatsapp } from 'react-icons/fa'
+
 import './contact.css'
 
 export const Contact = () => {
@@ -27,6 +29,10 @@ export const Contact = () => {
                         </div>
                         <button className='btn-contact'>Enviar</button>
                     </form>
+                </div>
+                <div className='wpp'>
+                    <h4>Escríbenos</h4>
+                    <FaWhatsapp className='wpp-item' /> 
                 </div>
             </div>
         </>

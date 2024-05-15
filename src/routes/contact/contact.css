@@ -14,6 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .form-group-contact {
@@ -43,4 +44,14 @@
     background-color: #FF5C78;
     color: white;
     border-radius: 10px;
+}
+
+.wpp h4 {
+    font-weight: bold;
+    color: #252D5F;
+}
+
+.wpp-item {
+    font-size: 80px;
+    color: #FF5C78;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 import { FaFacebook } from 'react-icons/fa'
 import { FaInstagram } from 'react-icons/fa'
@@ -28,13 +28,12 @@ export const Footer = () => {
                 </div>
                 <div className='footer-info'>
                     <div className='info-items-footer'>
-                        <p>Inicio</p>
-                        <p>Quienes somos</p>
+                        <NavLink to='/home'><p>Inicio</p></NavLink>
+                        <NavLink to='/about'><p>Quienes somos</p></NavLink>
                     </div>
                     <div className='info-items-footer'>
-                        <p>Productos</p>
-                        <p>Contacto</p>
-                        <p>Blog</p>
+                    <NavLink to='/products'><p>Productos</p></NavLink>
+                    <NavLink to='/contact'><p>Contacto</p></NavLink>
                     </div>
                     <div className='info-items-footer'>
                         <p>&copy; Todos los derechos reservados 2024</p>

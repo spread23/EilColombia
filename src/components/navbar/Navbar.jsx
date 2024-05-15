@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 import ReactPlayer from 'react-player'
+import { FaWhatsapp } from 'react-icons/fa'
 
 import './navbar.css'
 import logo from '../../assets/logo.png'
@@ -50,6 +51,9 @@ export const Navbar = () => {
                     />
                 </div>
             </header>
+            <div className='whats-container'>
+                    <FaWhatsapp className='whats' />
+            </div>
         </>
     )  
 }

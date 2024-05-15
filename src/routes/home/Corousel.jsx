@@ -8,10 +8,10 @@ import {
 } from 'reactstrap';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import one from '../../assets/uno.png'
-import two from '../../assets/dos.png'
-import three from '../../assets/cuatro.png'
-import four from '../../assets/cinco.png'
+import one from '../../assets/gp.jpg'
+import two from '../../assets/jamel.jpg'
+import three from '../../assets/pink.jpg'
+import four from '../../assets/vino_berdugo.jpg'
 
 const items = [
   {
@@ -36,7 +36,7 @@ const items = [
     src: four,
     altText: 'wine',
     caption: 'wine-slider',
-    key: 3,
+    key: 4,
   },
 ];
 
