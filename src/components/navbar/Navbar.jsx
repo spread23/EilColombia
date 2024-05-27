@@ -41,7 +41,7 @@ export const Navbar = () => {
                 <img className='header-image' src={ vinedoGrande } alt="vinedo" />
             </header>
             <div className='whats-container'>
-                    <FaWhatsapp className='whats' />
+                    <a href='https://wa.me/+573007730741' target='_blank'><FaWhatsapp className='whats' /></a>
             </div>
         </>
     )  

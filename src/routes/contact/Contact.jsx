@@ -7,6 +7,8 @@ import './contact.css'
 export const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
+
+        alert('Has enviado el correo con exito')
     }
     return (
         <>
@@ -32,7 +34,7 @@ export const Contact = () => {
                 </div>
                 <div className='wpp'>
                     <h4>Escríbenos</h4>
-                    <FaWhatsapp className='wpp-item' /> 
+                    <a href='https://wa.me/+573007730741' target='_blank'><FaWhatsapp className='wpp-item' /></a> 
                 </div>
             </div>
         </>

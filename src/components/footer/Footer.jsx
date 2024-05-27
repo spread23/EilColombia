@@ -20,9 +20,9 @@ export const Footer = () => {
                         <div className='container-footer'>
                             <h3 className='title-footer'>Síguenos</h3>
                             <div className='social-footer'>
-                                <a href='/'><FaFacebook className='items-footer' /></a>
-                                <a href='/'><FaInstagram className='items-footer' /></a>
-                                <a href='/'><FaYoutube className='items-footer' /></a>
+                                <a href='https://www.facebook.com/martinberdugo/?locale=es_LA' target='_blank'><FaFacebook className='items-footer' /></a>
+                                <a href='https://www.instagram.com/martin_berdugo_bodega/?hl=es' target='_blank'><FaInstagram className='items-footer' /></a>
+                                <a href='https://www.youtube.com/@martinberdugo297' target='_blank'><FaYoutube className='items-footer' /></a>
                             </div>
                         </div>
                 </div>
